@@ -7,14 +7,26 @@ public class Race {
     int endTime;
     int timeUsed;
 
+    Race() {
+        System.out.println("\tStart: ");
+        System.out.println("\tStart: ");
+        System.out.println("\tStart: ");
+        System.out.println("\tStart: ");
+        System.out.println("\tStart: ");
+        System.out.println("\tStart: ");
+    }
+
     public void start(String runners, String ageGroup, int distance) {
 
     }
+
     public void start(String runners, String ageGroup, int distance, int offset) {
 
     }
 
 public static class Group {
+
+
 
     public void simulate() {
         System.out.println("Start: " + ", End: " + ", Used: " + ", Distance: " +
